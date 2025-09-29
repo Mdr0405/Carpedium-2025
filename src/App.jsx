@@ -1,10 +1,12 @@
 import "./App.css";
+import Events from "./Events.jsx"
 
 function App() {
   return (
-    <div className="flex items-center justify-center text-3xl h-[100vh]">
-      Hello Carpediem !!!
-    </div>
+    <>
+    
+    <Events/>
+    </>
   );
 }
 
