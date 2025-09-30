@@ -1,19 +1,9 @@
 import "./App.css";
-import Events from "./Events.jsx"
-
+import { Footer } from './Footer.jsx'
 function App() {
   return (
-<<<<<<< HEAD
-    <>
-    
-    <Events/>
-    </>
-=======
-    <div className="flex items-center justify-center text-3xl h-[100vh]">
-      Hello Carpediem !!
-    </div>
->>>>>>> 6871cd386a9a028d5c459c4dfb446cf895cf5f59
-  );
+    <Footer />
+  )
 }
 
 export default App;
